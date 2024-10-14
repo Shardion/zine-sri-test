@@ -1,0 +1,17 @@
+.{
+    .name = "zine-sri-test",
+    .version = "1.0.0",
+    .dependencies = .{
+        .zine = .{
+            .path = "../zine",
+        },
+    },
+
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "content",
+        "layouts",
+        "assets",
+    },
+}

@@ -1,0 +1,7 @@
+---
+.title = "Test page",
+.date = @date("1998-03-03T00:00:00"),
+.author = "Zine developers",
+.layout = "index.shtml",
+.draft = false,
+---

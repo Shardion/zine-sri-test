@@ -1,0 +1,11 @@
+<!doctype html>
+<head>
+</head>
+<body>
+  <div :html="$page.content()">
+  </div>
+  <div id="sriCheckResults">
+    SRI checking script has not loaded. (Does it have an invalid SRI hash?)
+  </div>
+  <script src="$site.asset('test.js').link()" integrity="$site.asset('test.js').sriHash()" id="sriChecker"></script>
+</body>
